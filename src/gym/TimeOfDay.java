@@ -1,4 +1,4 @@
-package Gym;
+package gym;
 
 public class TimeOfDay implements Comparable<TimeOfDay> {
 

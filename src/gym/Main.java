@@ -1,4 +1,4 @@
-package Gym;
+package gym;
 
 import java.util.List;
 
