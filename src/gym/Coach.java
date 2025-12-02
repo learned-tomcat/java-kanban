@@ -28,12 +28,14 @@ public class Coach {
 
     @Override
     public boolean equals(Object o) {
+        if (this == o) return true;
         if (!(o instanceof Coach)) return false;
         Coach c = (Coach) o;
         return surname.equals(c.surname)
                 && name.equals(c.name)
                 && middleName.equals(c.middleName);
     }
+
 
     @Override
     public int hashCode() {
